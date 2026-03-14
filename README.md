@@ -21,6 +21,16 @@ The API is connected to a MySQL database and tested using Postman.
 - Java
 - Postman
 
+## API Endpoints
+
+| Method | Endpoint | Description |
+|------|------|------|
+| GET | /get | Retrieve all records |
+| POST | /add | Add a new record |
+| GET | /getone/{name} | Retrieve a record by name |
+| PUT | /update/{name} | Update record using name |
+| DELETE | /delete/{id} | Delete record by ID |
+
 ## API Testing
 All API endpoints were tested using Postman to verify request and response handling.
 
